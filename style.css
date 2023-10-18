@@ -1,0 +1,148 @@
+/*CABERÇALHO*/
+
+    #cabecalho{
+        background: #FFD900;
+        height: 80px;
+    }
+
+        #logo{
+            margin: 18px 0px 30px 35px;
+        }
+
+
+/*CENTRO*/
+
+    #centro{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+        #texto{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+            background-color: #514988;
+            height: 490px;
+            width: 600px;
+            font-size: 20px;
+        }
+            #texto h1{
+                color:#FFD900;
+                font-size: 50px;
+                margin-bottom: 15px;
+                margin-top: 20px;
+            }
+
+            #texto h2{
+                font-size: 20px;
+                margin-bottom: 55px;
+            }
+
+        #video{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 490px;
+            column-width: 75%;
+            display: grid;
+            padding-top: 0px;
+        }
+
+            .timer{
+                display: grid;
+                grid-auto-flow: column;
+                padding: 0px;
+                margin: 20px 0px 0px 15px;
+                text-align: center;
+                color: #514988;
+                font-size: 20px;
+                height: 15%;
+                width: 500px;
+            }
+                .tempo{
+                    display: grid;
+                    grid-auto-flow: column;
+                    font-size: 20px;
+                }
+                .tempo h1{
+                    padding-left: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                }
+
+                #centro video timer h1{
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+            #frase{
+                font-size: 10px;
+                font-weight: bolder;
+                color: #E33881;
+                margin: 0px 0px 0px 35px;
+                height: 15%;
+            }
+
+                #frase h1{
+                    padding: 0px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+
+            #arleq{
+                margin: 0px 0px 0px 10px;
+            }
+
+/*Base*/
+
+#base h1{
+    color: #FFD900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#imagens{
+    margin-left: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+#botao{
+    background-color: #514988;
+    color: white;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.card-selected{
+    border: 5px solid green;
+
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
